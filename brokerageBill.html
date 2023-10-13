@@ -124,6 +124,18 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function handleToggleLowerContainer() {
+            var lowerContainer = document.querySelector('.lowercontainer');
+            if (lowerContainer.style.display === 'none' || lowerContainer.style.display === '') {
+                lowerContainer.style.display = 'block';
+            } else {
+                lowerContainer.style.display = 'none';
+            }
+        }
+    </script>
+
 </body>
 
 </html>
